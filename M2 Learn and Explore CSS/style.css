@@ -1,0 +1,48 @@
+h3{
+    font-size: 30px;
+    /* text-decoration: overline; */
+}
+.blog{
+    
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 10px blueviolet;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.incident{
+    border: 1px solid purple;
+    height: 50px;
+    display: block;
+    /* display: inline-block; */
+    
+}
+.header{
+    padding-left: 15px;
+    padding-top: 0.02px;
+    height: 300px;
+    color: white;
+    background-color: bisque;
+    /* background-image: url("Sky.jpg"); */
+    background-repeat: none;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* background-size: cover; */
+    background-size: contain;
+    background-size:620px;
+    /* background-image: url(../); */
+    /* background-image: url(../Beauty_of_sundarban_04_20220509173753.jpg); */
+    background-image: url("../All_Images/tech_hand.jpg");
+  
+}
+
+.sakib{
+    border: 1px dotted green;
+    height: 50px;
+    
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+          color: peru;  
+        }
+        h3:hover{
+            color: chartreuse;
+            background-color: blueviolet;
+        }
+        input:focus{
+            color: red;
+            padding-left: 20px;
+            outline: 0;
+            border: 1px solid blue;
+        }
+        a:visited{
+            color: rgb(123, 188, 2);
+        }
+        li:last-child{
+            color: red;
+        }
+        li:first-child{
+            color: blue;
+        }
+        li:nth-child(2n+1){
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h3>My body</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.state.gov/countries-areas/madagascar/">Madagascar</a>
+    <ul>
+        <li>Sakib</li>
+        <li>Rakib</li>
+        <li>Habib</li>
+        <li>Jahid</li>
+        <li>Mahin  </li>
+        <li>Esan</li>
+        <li>Rohan</li>
+    </ul>
+</body>
+</html>

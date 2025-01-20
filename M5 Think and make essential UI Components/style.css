@@ -1,0 +1,33 @@
+.parent{
+    padding: 15px;
+    background-color: rgb(148, 196, 238);
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: left;
+    justify-content: start;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 350px;
+    align-items: stretch;
+    align-items: start;
+    align-items: center;
+    direction: row;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.child{
+    border: 1px solid black;
+    background: rgb(186, 233, 115);
+    padding: 20px;
+    font-size: 18px;
+    /* margin: 10px 0; */
+    /* display:; */
+}

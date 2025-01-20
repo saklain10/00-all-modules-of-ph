@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body{
+            border: 2px solid green;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .image-container{
+            display: flex;
+        }
+        .image-container img{
+            width: 100%;
+        }
+        .image-container div{
+            width: 50%;
+        }
+        @media screen and (max-width:576px) {
+            .image-container{
+                flex-direction: column;
+                flex-direction: column-reverse;
+            }
+            .image-container div{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Website</h1>
+        <ol>
+            <li>Viewport Meta Tag</li>
+            <li>CSS Relative Unit</li>
+            <li>Body max width and horizontal center align</li>
+            <li>image fluid</li>
+            <li>two column flex and use media query with flex direction column</li>
+            <li>multi column: grid query</li>
+            <li>menu responsive will need js</li>
+        </ol>
+    </header>
+    <main>
+        <div class="image-container">
+            <div>
+                <img src="images/food_love.webp" alt="">
+            </div>
+            <div>
+                <img src="images/tg.webp" alt="">
+            </div>
+        </div>
+
+        
+        
+    </main>
+</body>
+</html>

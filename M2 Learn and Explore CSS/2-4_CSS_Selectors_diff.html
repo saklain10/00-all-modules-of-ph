@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selector</title>
+    <style>
+        *{
+            /* margin: 2;  */
+        }
+        #fifth{
+            font-size: 30px;
+        }
+        .yellow{
+            background-color: yellowgreen;
+        }
+        .yellow, .bold{
+            font-weight: 700;
+        }
+        input[type="password"] {
+            font-size: 30px;
+            color: red;
+        }
+        .css{
+            color: rgb(73, 181, 43);
+        }
+        .blog{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Explore mixed selectors</h3>
+    <p class="yellow">My first line CSS</p>
+    <p>My second <span class="css">line CSS</span></p>
+    <p>My third line CSS</p>
+    <p class="yellow bold">My fourth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+    <p>My seventh line CSS</p>
+    <ol>
+        <li>Element Selector</li>
+        <li class="yellow bold">Class Selector</li>
+        <li>ID Selector</li>
+        <li>Universal Selector</li>
+        <li>Group and attribute Selector</li>
+    </ol>
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis hic quia, necessitatibus labore dignissimos, aut asperiores corrupti nesciunt nulla error, architecto ut veniam. Vero officiis cumque inventore quidem! Veritatis, cupiditate.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita fuga ad sequi quis tempora quae officia consequatur quas, ipsum possimus!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aliquam?</p>
+    </div>
+
+
+
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+</body>
+</html>

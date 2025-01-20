@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            color: blue;
+            font-size: 15px;
+            background-color: yellow;
+        }
+        h3::before{
+            content: 'start';
+            color: red;
+            font-size: 15px;
+            background-color: rgb(162, 242, 162);
+        }
+        p::first-letter{
+            font-size: 2em;
+        }
+        p::first-line{
+            color: rgb(41, 107, 3);
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            color: rgba(20, 1, 76, 0.295);
+        }
+    </style>
+</head>
+<body>
+    <h3>Heading- 1</h3>
+    <h3>Heading- 2</h3>
+    <h3>Heading- 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cupiditate sunt ab quibusdam aperiam iure nulla provident expedita ullam tempora.</p>
+    <p>Aperiam at exercitationem enim vero praesentium repellat atque quasi, veniam iste, nulla officiis debitis maxime dolor totam impedit reprehenderit maiores!</p>
+    <p>Ullam quasi molestiae et. Nisi dignissimos vero veniam id odit velit beatae nam porro. Nihil porro ut impedit minus nobis.</p>
+    <input type="text" placeholder="Your Names">
+</body>
+</html>

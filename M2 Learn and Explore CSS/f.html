@@ -1,0 +1,113 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Sections Side by Side</title>
+  <style>
+    /* Parent container for alignment */
+    .container {
+      display: flex;           /* Use Flexbox for layout */
+      justify-content: space-between; /* Space out items */
+      align-items: center;     /* Align items vertically in the center */
+      padding: 10px;           /* Optional: Add some padding */
+      background-color: #f0f0f0; /* Optional: Background for the section */
+    }
+
+    .left {
+      font-size: 24px;         /* Style for the text on the left */
+      font-weight: bold;
+      color: #4267B2;          /* Facebook's color (optional) */
+    }
+
+    .right button {
+      padding: 10px 20px;      /* Add padding to the button */
+      background-color: #4267B2; /* Button background */
+      color: white;            /* Button text color */
+      border: none;            /* Remove border */
+      border-radius: 5px;      /* Rounded corners */
+      cursor: pointer;         /* Pointer cursor on hover */
+    }
+    .right button:hover {
+      background-color: #365899; /* Darken button color on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">Facebook</div>
+    <div class="right">
+      <button>Log into an existing account</button>
+    </div>
+  </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Layout</title>
+  <style>
+    /* Flex container for the top row */
+    .top-container {
+      display: flex;           /* Use Flexbox */
+      justify-content: space-between; /* Space between text and button */
+      align-items: center;     /* Vertically align items */
+      padding: 10px;           /* Add some padding */
+      background-color: #f0f0f0; /* Optional: Background color */
+    }
+
+    /* Left text styling */
+    .left {
+      font-size: 24px;         /* Large font size for the title */
+      font-weight: bold;       /* Bold text */
+      color: #4267B2;          /* Facebook blue color */
+    }
+
+    /* Right button styling */
+    .right button {
+      padding: 10px 20px;      /* Add padding to the button */
+      background-color: #4267B2; /* Button color */
+      color: white;            /* Button text color */
+      border: none;            /* Remove border */
+      border-radius: 5px;      /* Rounded corners */
+      cursor: pointer;         /* Pointer cursor on hover */
+    }
+
+    .right button:hover {
+      background-color: #365899; /* Darken button on hover */
+    }
+
+    /* Centered content below */
+    .content {
+      text-align: center;      /* Center text horizontally */
+      margin-top: 50px;        /* Add space above the content */
+    }
+
+    .content p {
+      font-size: 18px;         /* Font size for paragraph text */
+      color: #333;             /* Text color */
+      line-height: 1.5;        /* Line spacing */
+    }
+  </style>
+</head>
+<body>
+  <!-- Top container with Facebook and button -->
+  <div class="top-container">
+    <div class="left">Facebook</div>
+    <div class="right"> <a href="https://www.facebook.com/login.php/"></a>
+      <button>Log into an existing account</button>
+    </div>
+  </div>
+
+  <!-- Centered content below -->
+  <div class="content">
+    <h2>Welcome to Facebook</h2>
+    <p>Connect with friends and the world around you on Facebook.</p>
+    <p>Share your thoughts, explore content, and stay connected.</p>
+  </div>
+</body>
+</html>
