@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        li {
+            color: rgb(148, 23, 1);
+        }
+
+        #fruits-title {
+            color: red;
+        }
+
+        .important-places {
+            font-style: italic;
+            color: blueviolet;
+        }
+
+        .fruits-container li {
+            color: rgb(4, 167, 4);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My DOM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quasi eligendi sed esse quas alias amet debitis
+            hic, molestias commodi libero a cum provident, dolores dicta quam quisquam ad ratione?</p>
+    </header>
+    <main id="main-container">
+        <section>
+            <h1>
+                Hope My DOM Journey Will be Smooth
+            </h1>
+            <ul>
+                <li>Jalai Set</li>
+                <li>Shafayat</li>
+                <li>Bonobash</li>
+                <li>Dom de de baba</li>
+            </ul>
+        </section>
+        <section class="fruits-container">
+            <h1 id="fruits-title" class="some-class random class blue-bg">Fruits Name</h1>
+            <!-- document.getElementById("places-title") -->
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+                <li>Grapes</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 id="places-title">Places I like to visit</h1>
+            <ul id="places-list">
+                <li class="important-placess">Sundorban</li>
+                <li class="important-placess">Bandarban</li>
+                <li class="important-placess">Kataban</li>
+                <li class="other-place">Salban</li>
+            </ul>
+            <!-- <h1 id=​"places-title">​Places I like to visit​</h1>​ -->
+            <!-- document.getElementById('places-title').innerText = "My tour list" -->
+        </section>
+    </main>
+    <script>
+        const student = {
+            name: "abul",
+            ID: 11,
+            study: function (time) {
+                console.log(time, "study kortese")
+            }
+
+        }
+    </script>
+    <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
+    <script src="js/styleInJs.js"></script>
+    
+    <script>
+        //option 1 less use
+        const liCollection = document.getElementsByTagName("li")
+        // console.log(liCollection)
+        for (const li of liCollection) {
+            // console.log(li)
+            // console.log(li.innerText)
+        }
+        const allHeadings = document.getElementsByTagName("h1");
+        for (const h1 of allHeadings) {
+            // console.log(h1);
+            // console.log(h1.innerText)
+        }
+        //option 2 more highest use
+        const fruitsTitle = document.getElementById("fruits-title")
+        fruitsTitle.innerText = "Fruits Title Name Changed by JS"
+        ////option 3 second highest use
+        const palces = document.getElementsByClassName("important-placess")
+        console.log(palces)
+        for (const place of palces) {
+            // console.log(place)
+            // console.log(place.innerText)
+        }
+
+        const ops = document.getElementsByClassName("other-place")
+        for (const op of ops) {
+            // console.log(op)
+            // console.log(op.innerText)
+        }
+        // document.getElementById("fruits-title")
+        // document.getElementsByClassName("important-placess")
+        //         document.querySelectorAll("fruits-title")
+        // NodeList []
+
+        //Query selector All
+        //option 4 middle amount use
+        const someLi = document.querySelectorAll(".fruits-container li")
+        // console.log(someLi)
+        for (const li of someLi) {
+            // console.log(li);
+            // console.log(li.innerText[0]);
+        }
+
+        const oneList = document.querySelector(".fruits-container li")
+        // console.log(oneList)
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
