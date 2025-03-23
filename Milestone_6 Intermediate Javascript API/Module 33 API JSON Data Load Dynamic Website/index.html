@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            background-color: aquamarine;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            border: 2px solid burlywood;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="handleLoadData()">Load Data</button>
+    <button onclick="handleLoadUsers()">Load User</button>
+    <button onclick="loadUser()">Load User with Index.js</button>
+    <div>
+        <ul id="users">
+
+        </ul>
+    </div>
+
+    <h1>Load All Posts</h1>
+    <div class="post-conatiner" id="postContainer"></div>
+    <button onclick="handlePost()">Load Post</button>
+    <button onclick="handleUpdate()">Update</button>
+     
+    <script src="./app.js"></script>
+    <script src="./fetch.js"></script>
+    <script src="./moreAPI.js"></script>
+    <script src="./index.js"></script>
+    <script src="./post.js"></script>
+    
+</body>
+</html>
+
