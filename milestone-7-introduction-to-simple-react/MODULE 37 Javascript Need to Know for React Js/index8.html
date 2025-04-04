@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37-8 dot vs bracket notation
+    </title>
+</head>
+<body>
+    <script>
+
+        const person = {
+            name: "hero alam",
+            age: 26,
+            friends: ["karim"],
+            salary: 1000,
+            10: "secret - code",
+            "hero-boss": "super"
+        }
+
+        const heroName = person.name
+        console.log(heroName)
+        const heroName1 = person["name"]
+        console.log(heroName1)
+
+        //for this case must use [] notation
+        const heroName2 = person[10]
+        console.log(heroName2)
+        const heroName3 = person["hero-boss"]
+        console.log(heroName3)
+    </script>
+</body>
+</html>

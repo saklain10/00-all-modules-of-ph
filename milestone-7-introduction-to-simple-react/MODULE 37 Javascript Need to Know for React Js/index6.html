@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>truthy, false Ternary operator, shortcut and or</h1>
+    <script>
+        // //  false value = 0, -0,"", null, undefined
+        // const test = ""
+        // if (test) {
+        //     console.log("its truthy")
+        // }
+        // else {
+        //     console.log("its falsy")
+        // }
+
+        // test?console.log("its truthy") : console.log("its falsy")
+
+
+        const num = 10;
+        const result=(num>=10 && num<20)?"true":"false";
+        console.log(result)
+
+
+        const isActive = true;
+        // console.log(isActive)
+
+        const showUser=()=>console.log('show User green')
+        const hideUser=()=>console.log('hide User')
+
+        // isActive ? showUser() : hideUser();
+        // isActive && showUser();
+        isActive || hideUser();
+
+
+        //typeconversion
+
+        let number = 10;
+
+        const result7 = 10+"" //will be convert in String
+        
+        console.log(typeof result7)
+
+        let number3 = "10";
+        let number4 = "10";
+        const result8 = +number3 //will be convert in number
+        const result9 = number4-0 //will be convert in number
+        console.log(typeof result8)
+        console.log(typeof result9)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

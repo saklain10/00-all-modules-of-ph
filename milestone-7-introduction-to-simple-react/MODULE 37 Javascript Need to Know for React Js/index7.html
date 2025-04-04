@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37-7 Explore Local storage and session storage with JSON
+    </title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="type name" name="" id="">
+    <input type="number" id="id" placeholder="type id" name="" id="">
+    <button onclick="handleAddToStorage()">submit</button>
+
+    <script>
+        const handleAddToStorage = () =>{
+            const name = document.getElementById("name").value;
+            const id = document.getElementById("id").value;
+
+            console.log(name,id)
+            
+        const data = {id, name}
+        localStorage.setItem(id,JSON.stringify(data))
+
+        // const storedItem = localStorage.getItem("1233")
+        // localStorage.setItem(id, JSON.parse(storedItem))
+        }
+    </script>
+</body>
+</html>
