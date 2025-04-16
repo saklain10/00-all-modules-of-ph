@@ -23,3 +23,12 @@ const loadData = async () => {
     const data = res.json();
     return data;
 }
+
+
+/**
+ * event trigger
+ * state
+ * Data load from API
+ * loop through to display data
+ * why we use key prop
+ */

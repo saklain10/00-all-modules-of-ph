@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "popular":true,
+    "price": "$9/month",
+    "description": "Perfect for individuals starting out.",
+    "features": [
+      "1 project with essential tools",
+      "Basic support during weekdays",
+      "100MB secure cloud storage",
+      "Access to community resources",
+      "Starter analytics dashboard access"
+   
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": "$29/month",
+    "description": "Ideal for freelancers and small teams.",
+    "features": [
+      "10 projects with advanced tools",
+      "Priority email and chat support",
+      "5GB of scalable storage space",
+      "Team collaboration with permissions",
+      "Connect your own custom domain"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": "$99/month",
+    "description": "For growing businesses and large teams.",
+    "features": [
+      "Unlimited projects with no limits",
+      "24/7 premium technical support",
+      "Unlimited and secure file storage",
+      "Dedicated account manager access",
+      "Detailed analytics and reporting tools",
+      "Automatically Upgraded System"
+    ]
+  }
+]
