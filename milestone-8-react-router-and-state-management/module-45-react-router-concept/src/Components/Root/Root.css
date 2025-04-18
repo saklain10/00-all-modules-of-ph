@@ -1,0 +1,14 @@
+.root-main{
+    display: flex;
+    /* margin-bottom: 5px; */
+    /* align-items: center; */
+    justify-items: center;
+    text-align: center;
+    gap: 100px;
+}
+
+nav a.active{
+    color: red;
+    text-decoration: underline;
+
+}
